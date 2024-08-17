@@ -39,7 +39,7 @@ body
 <H3  class="name">Click</H3>
 
 <canvas class="confetti" id="canvas"></canvas>
-<scriipt>
+<script>
 //-----------Var Inits--------------
 canvas = document.getElementById("canvas");
 ctx = canvas.getContext("2d");
@@ -152,12 +152,13 @@ render();
 window.addEventListener('resize', function () {
   resizeCanvas();
 });
-  </script>
-</body>
-  </html>
 
-//------------Click------------
+	//------------Click------------
 window.addEventListener('click', function () {
   document.getElementsByClassName('name')[0].innerHTML ='Happy Birthday'
   initConfetti();
 });
+  </script>
+</body>
+  </html>
+
