@@ -39,7 +39,7 @@ body
 <H3  class="name">Click</H3>
 
 <canvas class="confetti" id="canvas"></canvas>
-<scriipt>
+<script>
 //-----------Var Inits--------------
 canvas = document.getElementById("canvas");
 ctx = canvas.getContext("2d");
