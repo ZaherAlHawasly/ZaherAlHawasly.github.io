@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+<style>
 .confetti{
    max-width: 100%;
    display: block;
@@ -27,12 +31,15 @@ body
       -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
+   </style>
+      </head>
+<body>
 
 
 <H3  class="name">Click</H3>
 
 <canvas class="confetti" id="canvas"></canvas>
-
+<scriipt>
 //-----------Var Inits--------------
 canvas = document.getElementById("canvas");
 ctx = canvas.getContext("2d");
@@ -145,6 +152,9 @@ render();
 window.addEventListener('resize', function () {
   resizeCanvas();
 });
+  </script>
+</body>
+  </html>
 
 //------------Click------------
 window.addEventListener('click', function () {
